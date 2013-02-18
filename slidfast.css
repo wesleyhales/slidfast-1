@@ -87,6 +87,7 @@ Flip Transition
     -webkit-transform: rotateY(0deg);
     -moz-transform:  rotateY(0deg);
     -o-transform:  rotateY(0deg);
+    z-index: 1;
 }
 
 .flipped {
@@ -96,6 +97,7 @@ Flip Transition
     -moz-transform:  rotateY(180deg);
     -o-user-select: element;
     -o-transform:  rotateY(180deg);
+    z-index: 0;
 }
 
 /*************************************************
