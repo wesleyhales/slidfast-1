@@ -243,6 +243,7 @@
 
       cacheExternalImage:function () {
         var images = document.getElementsByTagName('img');
+
         for (var i = 0; i < images.length; i += 1) {
           if (images[i].hasAttribute("data-image")) {
             cacheImage(images[i]);
